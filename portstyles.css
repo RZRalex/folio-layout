@@ -1,0 +1,153 @@
+/* * {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	} */
+
+body *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.layout {
+    width: 900px;
+    height: 1200px;
+    background: rgb(111,89,100);
+    background: radial-gradient(circle, rgba(111,89,100,1) 0%, rgba(28,12,16,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header {
+    background-color: aliceblue;
+    height: 60px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+h2 {
+    font-size: medium;
+    display: inline-block;
+}
+
+h3 {
+    background: rgb(176,176,180);
+    background: linear-gradient(0deg, rgba(176,176,180,1) 0%, rgba(136,135,148,1) 50%, rgba(176,176,180,1) 100%);
+    margin-block-start: 0em;
+    padding: 0.5em;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    background: rgb(176,176,180);
+    background: linear-gradient(0deg, rgba(176,176,180,1) 0%, rgba(136,135,148,1) 50%, rgba(176,176,180,1) 100%);
+    padding: 0.5em;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background: rgb(254,254,254);
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(219,204,218,1) 100%);
+    /* margin: 10px; */
+    padding: 0px;
+
+}
+
+#content p {
+    margin: 0.5em;
+}
+
+.exp {
+    width: 280px;
+    height: 500px;
+    padding-bottom: 10px;
+    margin: -60px 10px 10px 10px;
+}
+
+.exp p{
+    font-size: .75em;
+}
+
+.textrow {
+    height: 7.5em;
+}
+
+.about {
+    width: 430px;
+    height: 290px;
+    margin: 0px 10px 10px 10px;
+}
+
+.webstill {
+    width: 280px;
+}
+
+img.pfp {
+    width: 420px;
+    height: 280px;
+    border: 5px solid rgb(176,176,180);
+}
+
+img.badge {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 4px;
+}
+
+footer {
+    width: 900px;
+    height: 60px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+footer p {
+    margin: auto;
+    width: 240px;
+    font-size: 0.9em;
+}
+
+footer ul {
+    width: 380px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    color: black;
+    font-style: italic;
+}
+
+button {
+    background-color: #407d61;
+    color: aliceblue;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-left: 90px;
+}
+
+ul li img{
+    height: 1em;
+}
+
+
+/* button color #407d61 */
